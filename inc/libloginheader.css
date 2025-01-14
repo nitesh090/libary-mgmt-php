@@ -1,0 +1,18 @@
+.libnav {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.libnav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.libnav a {
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid red;
+}
