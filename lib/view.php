@@ -1,7 +1,9 @@
 <?php include_once('../inc/libloginheader.php') ?>
-<h1>Book View</h1>
-<button class="btn">Add</button>
-<div class="vbook">
+<div class="bookviewheader container">
+    <h1>Book View</h1>
+    <button class="addbtn">Add</button>
+</div>
+<div class="vbook container">
 
     <div class="bookCard">
         <img src="../public/img/bookDemo.jpg" alt="" class="bookCardImg">

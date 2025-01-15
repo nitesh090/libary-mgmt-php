@@ -11,8 +11,10 @@
 <body>
     <nav class="libnav">
         <ul>
-            <li><a href="#">Book view</a></li>
-            <li><a href="#">Book taken</a></li>
+            <li><a href="#">Book View</a></li>
+            <li><a href="#">Book Taken</a></li>
         </ul>
-        <a href="#">Log Out</a>
+        <div class="abtn">
+            <a href="#">Log Out</a>
+        </div>
     </nav>
