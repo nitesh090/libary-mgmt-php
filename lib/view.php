@@ -1,7 +1,7 @@
 <?php include_once('../inc/libloginheader.php') ?>
 <div class="bookviewheader container">
     <h1>Book View</h1>
-    <button class="addbtn">Add</button>
+    <a href="./add.php" class="addbtn">Add</a>
 </div>
 <div class="vbook container">
 
