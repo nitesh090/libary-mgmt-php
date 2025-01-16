@@ -1,0 +1,58 @@
+.takenheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addtakenbtn {
+  text-decoration: none;
+  color: white;
+  background: #000;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0rem;
+}
+
+.tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  min-width: 4rem;
+  border-radius: 5rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.activeTab {
+  background: red;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 1rem;
+}
+
+.takentabel {
+  text-align: center;
+  width: 100%;
+}
+
+.tabelbutton {
+  display: flex;
+  gap: 0.4rem;
+  justify-content: column;
+}
