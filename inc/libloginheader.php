@@ -11,8 +11,8 @@
 <body>
     <nav class="libnav">
         <ul>
-            <li><a href="#">Book View</a></li>
-            <li><a href="#">Book Taken</a></li>
+            <li><a href="../lib/view.php">Book View</a></li>
+            <li><a href="../lib/taken.php">Book Taken</a></li>
         </ul>
         <div class="abtn">
             <a href="#">Log Out</a>

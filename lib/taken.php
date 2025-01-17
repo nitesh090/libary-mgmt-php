@@ -7,7 +7,7 @@
             <a class="tab">Not Return</a>
         </div>
 
-        <a href="#" class="addtakenbtn">Add New +</a>
+        <a href="../lib/takenadd.php" class="addtakenbtn">Add New +</a>
     </header>
     <table class="takentabel">
         <tr>
@@ -15,7 +15,7 @@
             <th>Book Name</th>
             <th>Author</th>
             <th>Taken Date</th>
-            <th>Time</th>
+            <th>Return Date</th>
             <th>Edit</th>
         </tr>
         <tr>
@@ -23,7 +23,7 @@
             <td>Book Name</td>
             <td>Author</td>
             <td>Taken Date</td>
-            <td>Time</td>
+            <td>Return Date</td>
             <td>
                 <div class="bookBtnContainer">
                     <button class="bookDeleteBtn">Remove</button>
