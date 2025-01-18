@@ -30,7 +30,8 @@ body {
   font-weight: 600;
 }
 
-.inplbl > input {
+.inplbl > input,
+.inplbl > select {
   padding-inline: 0.5rem;
   font-size: 1.6rem;
   border: 1px solid #120024;
