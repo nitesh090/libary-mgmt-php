@@ -9,12 +9,24 @@
 </head>
 
 <body>
+    <?php
+    session_start();
+    if (!isset($_SESSION['id'])) {
+        header('Location: ../login.php');
+    }
+
+    if ($_SESSION['role'] == 'student') {
+        header('Location: ../stu/student.php');
+    }
+
+
+    ?>
     <nav class="libnav">
         <ul>
             <li><a href="../lib/view.php">Book View</a></li>
             <li><a href="../lib/taken.php">Book Taken</a></li>
         </ul>
         <div class="abtn">
-            <a href="#">Log Out</a>
+            <a href="../logout.php">Log Out</a>
         </div>
     </nav>

@@ -1,4 +1,5 @@
 <?php include_once('../inc/studentheader.php') ?>
+
 <section class="container">
     <div class="stuname">
         <h1>Student Name</h1>

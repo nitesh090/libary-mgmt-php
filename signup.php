@@ -1,14 +1,46 @@
-<?php include_once('./inc/header.php') ?>
+<?php
+include_once('./inc/header.php');
+include_once('./inc/db.php');
+?>
+<?php
+try {
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+        $name =  $_POST['name'];
+        $email = $_POST['email'];
+        $password =  $_POST['password'];
+
+        if ($name == "" || $email == "" || $password == "") {
+            throw new Exception("All Fields are required");
+        }
+
+        $password = password_hash($password, PASSWORD_DEFAULT);
+
+        $sql = "INSERT INTO user (name, email, password) VALUES ('$name', '$email', '$password')";
+
+        $conn = getDB();
+        $result = mysqli_query($conn, $sql);
+
+        if ($result) {
+            echo "You have sucessfylly registered, Please login NOW!";
+            header('refresh: 1; url = ./login.php');
+        }
+    }
+} catch (Exception $ex) {
+    echo ("Error: " . $ex->getMessage());
+}
+
+?>
+
 <div class="signup">
     <h1>SIGNUP TO LIBARY</h1>
-    <form action="" class="signup__form">
+    <form method="post" class="signup__form">
         <div class="inplbl">
             <label for="name">Name:</label>
             <input type="text" placeholder="enter your name" name="name">
         </div>
         <div class="inplbl">
             <label for="email">Email:</label>
-            <input type="text" placeholder="enter your email" name="email">
+            <input type="email" placeholder="enter your email" name="email">
         </div>
         <div class="inplbl">
 
