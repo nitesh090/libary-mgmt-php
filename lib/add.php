@@ -3,13 +3,11 @@ include_once('../inc/db.php') ?>
 <?php
 try {
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-        echo "HELLO";
         $name = $_POST['name'];
         $author = $_POST['author'];
         $publish_date = $_POST['publish_date'];
         $stock = $_POST['stock'];
 
-        print_r($_POST);
 
         if ($name == "" || $author == "" || $publish_date == "" || $stock == "") {
             throw new Exception("All Fields are required");
