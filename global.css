@@ -53,3 +53,9 @@ body {
   padding: 0.5rem 1rem;
   margin-inline: auto;
 }
+
+.btnLink {
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+}
