@@ -39,7 +39,7 @@ try {
         $result = mysqli_query($conn, $sql);
 
         if (!$result) {
-            throw new Exception("Failed to add");
+            throw new Exception("Failed to edit");
         }
 
         if ($photo != $oldBook['photo']) {
