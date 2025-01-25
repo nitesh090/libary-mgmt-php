@@ -13,17 +13,17 @@
         <tr>
             <th>Student Name</th>
             <th>Book Name</th>
-            <th>Author</th>
             <th>Taken Date</th>
             <th>Return Date</th>
+            <th>Has Returned</th>
             <th>Edit</th>
         </tr>
         <tr>
             <td>Niku</td>
             <td>Book Name</td>
-            <td>Author</td>
             <td>Taken Date</td>
             <td>Return Date</td>
+            <td>not returned</td>
             <td>
                 <div class="bookBtnContainer">
                     <button class="bookDeleteBtn">Remove</button>
