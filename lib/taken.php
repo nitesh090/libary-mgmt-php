@@ -26,8 +26,8 @@
             <td>not returned</td>
             <td>
                 <div class="bookBtnContainer">
-                    <button class="bookDeleteBtn">Remove</button>
-                    <button class="bookEditBtn">Edit</button>
+                    <a href="" class="bookDeleteBtn">Remove</a>
+                    <a href="./takenedit.php" class="bookEditBtn">Edit</a>
                 </div>
 
             </td>

@@ -18,5 +18,6 @@
 }
 
 .bookEditBtn {
+  text-decoration: none;
   cursor: pointer;
 }
