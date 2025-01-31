@@ -1,6 +1,7 @@
 <?php include_once('../inc/libloginheader.php');
 include_once('../inc/db.php') ?>
 <?php
+$id = $_GET['id'];
 ?>
 
 <form class="takenadd container" method="post">
