@@ -66,8 +66,8 @@ try {
                 </td>
                 <td>
                     <div class="bookBtnContainer">
-                        <a href="" class="bookDeleteBtn">Remove</a>
-                        <a href="./takenedit.php" class="bookEditBtn">Edit</a>
+                        <a href="./takendelete.php?taken_id=<?= $book_taken_by['id']; ?>" class="bookDeleteBtn">Remove</a>
+                        <a href="./takenedit.php?taken_id=<?= $book_taken_by['id']; ?>" class="bookEditBtn">Edit</a>
                     </div>
 
                 </td>
