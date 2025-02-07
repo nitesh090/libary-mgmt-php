@@ -28,7 +28,6 @@ try {
 
 try {
     if (isset($_POST['student_id'])) {
-        print_r($_POST);
         $student_id = $_POST['student_id'];
         $book_id = $_POST['book_id'];
         $taken_date = $_POST['taken_date'];

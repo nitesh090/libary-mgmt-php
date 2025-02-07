@@ -4,3 +4,8 @@
   border-radius: 0.8rem;
   margin-bottom: 1rem;
 }
+.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
