@@ -5,7 +5,7 @@ include_once('./inc/db.php');
 
 <?php
 if (isset($_SESSION['id'])) {
-    if ($_SESSION['role'] == 'libarian') {
+    if ($_SESSION['role'] == 'librarian') {
         header('Location: ./lib/view.php');
     } else {
         header('Location: ./stu/student.php');
@@ -35,7 +35,7 @@ try {
         unset($_SESSION['password']);
 
         echo "You have successfully logged IN!";
-        if ($result['role'] == 'libarian') {
+        if ($result['role'] == 'librarian') {
             // header('Location: ./lib/view.php');
             header('refresh: 1; url = ./lib/view.php');
         } else {

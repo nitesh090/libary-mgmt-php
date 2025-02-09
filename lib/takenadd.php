@@ -81,7 +81,7 @@ try {
 
     </div>
     <div class="bookBtnContainer">
-        <button class="bookDeleteBtn">Cancel</button>
+        <a href="./taken.php" class="bookDeleteBtn">Cancel</a>
         <button class="bookEditBtn">Save</button>
     </div>
 
